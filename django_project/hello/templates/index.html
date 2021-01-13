@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+body{
+    background-color: #333;
+}
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color:dodgerblue;
+  border: solid 1px white;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Click to Read/close</div>
+<div id="panel">( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)
+    ( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)( ͡o ͜ʖ ͡o)
+    <a href="https://freekode.centeltech.com/">Read more</a>
+</div>
+</body>
+</html>
